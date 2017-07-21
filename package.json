@@ -1,0 +1,24 @@
+{
+  "name": "ramdap",
+  "version": "0.0.0",
+  "description": "Utility functions for Promise handling in RamdaJS'",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap *.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finsyn/ramdap.git"
+  },
+  "keywords": [
+    "ramda",
+    "promises",
+    "javascript"
+  ],
+  "author": "tornilssonohrn@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finsyn/ramdap/issues"
+  },
+  "homepage": "https://github.com/finsyn/ramdap#readme"
+}
