@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/finsyn/ramdap/issues"
   },
-  "homepage": "https://github.com/finsyn/ramdap#readme"
+  "homepage": "https://github.com/finsyn/ramdap#readme",
+  "dependencies": {
+    "ramda": "~0.24.1",
+    "tap": "~10.7.2"
+  }
 }
