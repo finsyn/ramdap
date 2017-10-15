@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/finsyn/ramdap#readme",
   "dependencies": {
-    "ramda": "~0.24.1",
+    "ramda": "~0.24.1"
+  },
+  "devDependencies": {
     "tap": "~10.7.2"
   }
 }
