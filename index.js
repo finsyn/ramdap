@@ -23,10 +23,17 @@ const applySpecP = spec => pipeP(
   pOf
 );
 
+const tapP = (fun) => (arg) => new Promise((resolve, reject) => {
+  fun(arg)
+    .then(() => resolve(arg))
+    .catch(reject)
+})
+
 module.exports = {
   joinP,
   convergeP,
   applySpecP,
   ofP,
-  pOf
+  pOf,
+  tapP
 };

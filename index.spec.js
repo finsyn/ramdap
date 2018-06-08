@@ -1,5 +1,5 @@
-const { convergeP, applySpecP } = require('./index');
-const { tap, pipe } = require('ramda');
+const { tapP, convergeP, applySpecP } = require('./index');
+const { always, tap, pipe } = require('ramda');
 const t = require('tap');
 
 const oneP = () => Promise.resolve([1, 2]);
@@ -26,4 +26,15 @@ t.test('applySpec with promises', t => {
     t.end();
   });
 
+});
+
+t.test('tap with promises', t => {
+
+  const code = 'testing'
+
+  tapP(oneP)(code)
+    .then(res => {
+      t.equals(res, code)
+      t.end()
+    })
 });
