@@ -20,6 +20,12 @@ Turns any value into a promise that just resolves to that value
 Creates one promise returning functions out of multiple promise returning functions.
 The returned function will output an array of all the resulting resolved values. 
 
+### tapP
+`(a -> (Promise b)) -> a -> a`
+
+Runs the given Promise returning function with the supplied object, then returns the object once the promise has resolved.
+
+
 ## Installation
 ```
 npm i ramdap
