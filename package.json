@@ -1,6 +1,6 @@
 {
   "name": "ramdap",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Utility functions for Promise handling in RamdaJS'",
   "main": "index.js",
   "scripts": {
